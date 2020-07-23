@@ -1,0 +1,1 @@
+D:\WymSword_Application\Python\Django_Application\DustFlight_Studio\DustFlight_Studio\obj\Any CPU\Debug\DustFlight_Studio.pyproj.CoreCompileInputs.cache

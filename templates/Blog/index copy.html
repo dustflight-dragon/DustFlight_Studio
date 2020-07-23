@@ -1,0 +1,64 @@
+﻿<!-- {% include 'header.html' %}
+{% include 'content.html' %}
+{% include 'footer.html' %} -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="//apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+    <script src="//apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <title>{% block template_title %} {{ template_title }} {% endblock %}</title>
+</head>
+
+<body>
+    <div class="content">
+        <h2>
+            <center>
+                {% for value in key_value_colleciton %}
+                <ul>
+                    <li>{{ value.tempalte_title }}</li>
+                    <li>{{ value.template_header }}</li>
+                    <li>{{ value.template_content }}</li>
+                    <li>{{ value.template_footer }}</li>
+                </ul>
+                {% endfor %}
+            </center>
+        </h2>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>第一列</h3>
+                    <p>DustFlight Fighting！</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>第二列</h3>
+                    <p>DustFlight Fighting！</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>第三列</h3>
+                    <p>DustFlight Fighting！</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>第四列</h3>
+                    <p>DustFlight Fighting！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h3>
+            <center>
+                {{ template_footer }}
+            </center>
+        </h3>
+    </div>
+</body>
+
+</html>

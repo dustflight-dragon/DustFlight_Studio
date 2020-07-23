@@ -1,0 +1,27 @@
+{% include "./header.html" %}
+
+<div class="content">
+    {% for article in article_list %}
+    <p>
+    <ul>
+        <li>
+            <left>
+                <h3>
+                    Article_Title: <b>{{ article.dragon_article_title }}</b><br />
+                    Author: <b>{{ article.dragon_article_author }}</b><br />
+                    Category: <b>{{ article.dragon_article_category }}</b><br />
+                    Tags: <b>{{ article.dragon_article_tags }}</b><br />
+                    Content: <b>{{ article.dragon_article_content }}</b><br />
+                    Article_Banner: <b>{{ article.dragon_article_img }}</b><br />
+                    Page_Views: <b>{{ article.dragon_article_views }}</b><br />
+                    Publish_Date: <b>{{ article.dragon_article_publish_date }}</b><br />
+                    Modified_Date: <b>{{ article.dragon_article_update_date }}</b><br />
+                </h3>
+            </left>
+        </li>
+    </ul>
+    </p>
+    {% endfor %}
+</div>
+
+{% include "./footer.html" %}

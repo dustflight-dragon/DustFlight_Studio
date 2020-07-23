@@ -1,0 +1,35 @@
+﻿<div class="content">
+    <h2>
+        <center>
+            {% for value in key_value_colleciton %}
+            <ul>
+                <li>{{ value.tempalte_title }}</li>
+                <li>{{ value.template_header }}</li>
+                <li>{{ value.template_content }}</li>
+                <li>{{ value.template_footer }}</li>
+            </ul>
+            {% endfor %}
+        </center>
+    </h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h3>第一列</h3>
+                <p>DustFlight Fighting！</p>
+            </div>
+            <div class="col-sm-3">
+                <h3>第二列</h3>
+                <p>DustFlight Fighting！</p>
+            </div>
+            <div class="col-sm-3">
+                <h3>第三列</h3>
+                <p>DustFlight Fighting！</p>
+            </div>
+            <div class="col-sm-3">
+                <h3>第四列</h3>
+                <p>DustFlight Fighting！</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+﻿{% include './header.html' %}
+
+<div class="content">
+    <ul>
+        <left>
+            <li>
+                <h3>
+                    工程师信息
+                </h3>
+            </li>
+            <br>
+            <li>
+                {% for key, value in info_list_collection.items %}
+                <h4>
+                    {{ key }}:&nbsp; {{ value }}
+                </h4>
+                {% endfor %}
+            </li>
+        </left>
+    </ul>
+</div>
+
+{% include "./footer.html" %}
