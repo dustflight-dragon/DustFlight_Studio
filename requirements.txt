@@ -56,7 +56,7 @@ defusedxml==0.6.0
 diff-match-patch==20181111
 distributed==2.11.0
 distro==1.5.0
-Django==3.0.8
+Django==3.1.9
 docker==4.2.2
 docker-compose==1.26.2
 dockerpty==0.4.1
