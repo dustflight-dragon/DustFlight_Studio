@@ -85,7 +85,7 @@ greenlet==0.4.15
 h5py==2.10.0
 HeapDict==1.0.1
 html5lib==1.0.1
-httpie==2.0.0
+httpie==3.1.0
 hyperlink==19.0.0
 hypothesis==5.5.4
 idna==2.9
