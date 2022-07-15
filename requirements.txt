@@ -54,7 +54,7 @@ dask==2.11.0
 decorator==4.4.2
 defusedxml==0.6.0
 diff-match-patch==20181111
-distributed==2.11.0
+distributed==2021.10.0
 distro==1.5.0
 Django==3.0.8
 docker==4.2.2
